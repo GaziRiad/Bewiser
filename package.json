@@ -1,0 +1,19 @@
+{
+  "name": "bewiser",
+  "version": "1.0.0",
+  "description": "Bewiser generates random advices for you to use.",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel  build index.html"
+  },
+  "author": "Riad Hallouch",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.32.0",
+    "regenerator-runtime": "^0.13.11"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  }
+}

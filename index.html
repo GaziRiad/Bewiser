@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <script type="module" src="/src/js/controller.js"></script>
+    <title>Generate-advice -- RiadG</title>
+
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header-section">
+        <img
+          src="./src/imgs/logo-no-background.png"
+          alt="Berwiser's Logo"
+          class="logo"
+        />
+        <form action="" class="search">
+          <input
+            autofocus
+            type="text"
+            placeholder="Search over 10 million of advices ..."
+          />
+          <button type="submit">
+            <span class="material-symbols-outlined"> search </span>
+            <span>Search</span>
+          </button>
+        </form>
+        <nav class="menu-nav">
+          <ul class="menu-nav--list">
+            <li class="list-item--bookmarks">
+              <button>
+                <span class="material-symbols-outlined icon"> bookmark </span>
+                <span>Bookmarks</span>
+              </button>
+              <div class="bookmarks">
+                <p class="no-bookmarks--text">
+                  No bookmarks yet. Find a nice advice and bookmark it :)
+                </p>
+              </div>
+            </li>
+            <!--  -->
+            <!-- <li>
+              <button>
+                <span class="material-symbols-outlined icon"> dark_mode </span>
+
+                <span>Switch mode</span>
+              </button>
+            </li> -->
+          </ul>
+        </nav>
+      </header>
+      <div class="content">
+        <div class="main-content">
+          <!-- ERROR -->
+          <!-- <div class="error">
+            <div>
+              <ion-icon name="sad-outline" class="icon"></ion-icon>
+            </div>
+            <p class="error-msg">
+              No advice found for your query. Please try again!
+            </p>
+          </div> -->
+
+          <!-- SPINNER -->
+          <!-- <div class="lds-spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div> -->
+
+          <!-- MAIN CONTENT -->
+          <div class="quote-container">
+            <!-- <figure class="advice-fig">
+              <p class="advice-id">#122</p>
+              <blockquote class="advice-quote">
+                Smile and the world smiles with you. Frown and you're on your
+                own.
+              </blockquote>
+              <div class="fig-icons">
+                <button class="save--btn">
+                  <ion-icon name="bookmark-outline" class="icon"></ion-icon>
+                  <span>Bookmarked !</span>
+                </button>
+                <button class="copy--btn">
+                  <ion-icon name="copy-outline" class="icon"></ion-icon>
+                  <span>Copied !</span>
+                </button>
+              </div>
+            </figure> -->
+          </div>
+
+          <button class="generate-btn">
+            <span class="material-symbols-outlined"> refresh </span>
+            <span>Generate advice</span>
+          </button>
+          <p class="search-keyword">Search keyword : <span>none</span></p>
+        </div>
+        <p class="copyright">
+          © Copyright by <span>Riad Hallouch</span>. Use for generating advices
+          to post on social media. Don't use to teach. Don't claim as your own.
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
